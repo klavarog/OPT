@@ -1,0 +1,39 @@
+﻿$Id: LIESMICH,v 1.20 2017/05/13 16:23:43 andreas Exp $
+
+Die einzelnen Files:
+
+Anleitung.pdf     Eine längere Anleitung als diese.
+
+opt.cc            Belegungsoptimierer.
+
+		  Übersetzen:  g++ -std=c++11 -O2 -DNDEBUG opt.cc -o opt
+
+		  Optimieren: ./opt -2 deutsch.txt
+		  Weitere Optionen anzeigen: ./opt -h
+
+deutsch.txt.*     Ein-, Bi- und Trigrammhäufigkeiten für Deutsch. Bei der -t
+deutsch-t.txt.*   Variante sind nur Bi- und Trigramme im Innern von Wörtern,
+		  die nicht an Trennstellen liegen, mitgezählt
+
+englisch.txt.*    Ein-, Bi- und Trigrammhäufigkeiten für Englisch
+englisch-t.txt.*
+
+bsptast.txt       Eine Auswahl von Belegungen (siehe Option -r).
+
+standard.cfg      Konfigurationsfiles (Tastengeometrie, Zeichensatz,
+teck.cfg          Optimierungskriterien).
+qwertzig.cfg      Beispiel für Vorlieben: QWERTZ-ähnlich
+totetasten.cfg    Beispiel für Definition von toten Tasten
+
+gencfg.awk        Demo-AWK-Skript zur Erzeugung von Konfigurationsfiles
+
+Der deutsche und der englische Korpus wurde unter anderem mit den Leipziger
+Korpora erstellt.  Siehe http://corpora.uni-leipzig.de/download.html für
+weitere Informationen zu diesen Korpora.
+
+Ich danke Karl Köckemann für seine Verbesserungen am deutschsprachigen
+Leipziger Korpus.  Ich danke den Mitgliedern der Neo- und AdNW-Mailinglisten
+für die Anregungen zum Thema Tastaturbelegung, ohne die der Optimierer nicht
+geschrieben worden wäre.
+
+Andreas Wettstein
