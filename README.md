@@ -5,6 +5,8 @@ Windows Linux MacOS
 Official Website: http://www.adnw.de/
 #### Сборка OPT из исходников в Windows:
 https://github.com/klavarog/OPT/blob/master/build_guide_for_win.md
+
+Сборку од другие системы читать    .pdf (сначала на немецком языке, следом ниже на английском).
 #### Скачать opt.exe для Windows 10 x86_64:
 https://github.com/klavarog/OPT/releases/tag/1.0x86_64
 
