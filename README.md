@@ -1,5 +1,7 @@
 English instructions are contained in the second half of Anleitung.pdf.
 
+Windows Linux MacOS
+
 Official Website: http://www.adnw.de/
 #### Сборка OPT из исходников в Windows:
 https://github.com/klavarog/OPT/blob/master/build_guide_for_win.md
