@@ -1,6 +1,6 @@
 English instructions are contained in the second half of Anleitung.pdf.
 # Сборка OPT из исходников в Windows.
-
+<details> 
 * Скачайте `mingw-get-setup.exe`: 
 	* [c официального сайта](http://www.mingw.org/wiki/Getting_Started) пролистать вниз, до `1. Click on this mingw-get-setup.exe`.
 	* [с sourceforge](https://sourceforge.net/projects/mingw/files/Installer/), кнопка "Download Latest Version".
@@ -32,3 +32,4 @@ English instructions are contained in the second half of Anleitung.pdf.
 * В консоли пишем команду `opt meinkorpus.txt`
 	Теперь откройте "C:\opt". В списке файтов появились "meinkorpus.txt.1", "meinkorpus.txt.2", "meinkorpus.txt.3" и "meinkorpus.txt.wl" Это файлы с программным анализом вашего текста. В качестве примера здесь приведена только одна из множества функций программы. Возможности программы позволяют создавать кастомные прошивки с применением слоев
 под любые запросы. Смотрите руководство в архиве программы в pdf-файле "Anleitung.pdf". Во второй половине "Anleitung.pdf" руководство на английском языке.
+</details> 
