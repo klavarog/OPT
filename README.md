@@ -1,5 +1,5 @@
 English instructions are contained in the second half of Anleitung.pdf.
-# Сборка OPT из исходников в Windows.
+#### Сборка OPT из исходников в Windows.
 <details> 
 * Скачайте `mingw-get-setup.exe`: 
 	* [c официального сайта](http://www.mingw.org/wiki/Getting_Started) пролистать вниз, до `1. Click on this mingw-get-setup.exe`.
