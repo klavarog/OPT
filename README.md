@@ -5,7 +5,11 @@ Windows Linux MacOS
 Official Website: http://www.adnw.de/
 #### Сборка OPT из исходников в Windows:
 https://github.com/klavarog/OPT/blob/master/build_guide_for_win.md
-#### Про сборку под другие системы читать здесь: https://github.com/klavarog/OPT/blob/master/Anleitung.pdf (инструкция сначала на немецком языке, следом ниже на английском)
+#### Сборка под другие системы: 
+
+`g++ -std=c++11 -O2 -DNDEBUG -DTASTENZAHL=35 -DENGLISH -static-libgcc -static-libstdc++ opt.cc -o opt`
+
+Подробнее читать здесь: https://github.com/klavarog/OPT/blob/master/Anleitung.pdf (инструкция сначала на немецком языке, следом ниже на английском)
 #### Скачать opt.exe для Windows 10 x86_64:
 https://github.com/klavarog/OPT/releases/tag/1.0x86_64
 
