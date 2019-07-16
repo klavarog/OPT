@@ -21,6 +21,7 @@
 	mingw-get.exe install mingw32-make
 	set PATH=C:\MinGW\bin;%PATH%
 	cd C:\opt
+	chcp 65001
 	g++ -std=c++11 -O2 -DNDEBUG -DTASTENZAHL=35 -DENGLISH -static-libgcc -static-libstdc++ opt.cc -o opt
 	```
 	Установка программы завершена. Не закрывайте консоль! Работать с программой будем в консоли.
